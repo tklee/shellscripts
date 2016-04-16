@@ -1,0 +1,41 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Apr 16 13:06:58 2016
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22290 39778 721834 0) (desktop . "206") "Theodore@Theodores-MacBook-Pro.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#F8F8F2") (background-color . "#272822") (line-spacing) (left-fringe . 10) (right-fringe . 11) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#F8F8F2") (environment) (mouse-color . "#F8F8F2") (frameset--id . "6A05-611C-FCB4-FAA8") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "Theodores-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 72) (width . 270) (left . 0) (top . 23)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 42) (min-pixel-width-ignore . 35) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 1916) (pixel-height . 1006) (total-width . 273) (total-height . 71) (normal-height . 1.0) (normal-width . 1.0) (buffer "migration.sql" (selected . t) (hscroll . 0) (fringes 10 11 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("j" "ggjk:q"))
+(setq regexp-search-ring '("\\<extract\\>" "\\<changed\\>" "\\_<changed_packages\\_>" "def repack" "Santa B" "\\_<changed_packages\\_>" "changed_pack" "everno" "an three" "heft sum" "goldfi" "dead grass" "oregon" "portland" "tr" "neg"))
+(setq register-alist '((105) (106) (33) (98 . "      create(:package_label_document, shipment: shipment_with_label, package: package_with_label)\n") (97 . "extract_package(system_pkg)\n") (48 . "		System.out.println(\"False positives = \" + false_positives);\n")))
+(setq file-name-history '("~/Documents/shiphawk-hudson/src/main/resources/migration.sql" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/DbFrequencyUpdater.java" "~/Documents/shiphawk_compare/app/models/shipment.rb" "~/Dropbox/writings/vignettes/vignettes.txt" "~/Documents/shiphawk-dev/app/models/shipment.rb" "~/.emacs" "~/Documents/proxibid-test/config/secrets.yml" "~/Dropbox/writings/vignettes/vignettes.txt" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/NewProductAnalyzer.java" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/DbNormalizedUpdater.java" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/DbFrequencyUpdater.java" "~/Documents/shiphawk-hudson/useful_sql.txt" "~/Documents/shiphawk-hudson/src/main/resources/migration.sql" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/DbManagement.java" "~/Dropbox/writings/vignettes/vignettes.txt" "~/Documents/shiphawk_compare/db/structure.sql" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/DbNormalizedUpdater.java" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/WordProcessor.java" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/DbFrequencyUpdater.java" "~/Documents/shiphawk-hudson/useful_sql.txt" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/App.java" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/DbNormalizedUpdater.java" "~/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/NewProductAnalyzer.java" "~/Documents/shiphawk-dev/spec/support/webmock_and_vcr.rb" "~/Documents/shiphawk-dev/spec/api/v3/shipment_packages_spec.rb" "~/Documents/sh4auctions_second/ShipHawkNL/NetworkController.swift" "~/Documents/sh4auctions_second/ShipHawkNL/ScannerViewController.swift" "~/Documents/shiphawk-dev/config/database.yml" "~/nbt/dashboard-mvp/src/components/print-labels/" "~/Documents/shiphawk-dev/app/api/v4/shipment_labels.rb"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/Theodore/Documents/shiphawk-hudson/src/main/resources/migration.sql"
+  "migration.sql"
+  'sql-mode
+  '(undo-tree-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/Theodore/Documents/shiphawk-hudson/src/main/java/com/shiphawk/app/DbFrequencyUpdater.java"
+  "DbFrequencyUpdater.java"
+  'java-mode
+  '(abbrev-mode undo-tree-mode auto-complete-mode text-scale-mode)
+  2261
+  '(3421 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
