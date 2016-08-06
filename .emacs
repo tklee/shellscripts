@@ -1,11 +1,11 @@
 (tool-bar-mode -1)
 
-(require 'package)
-  (push '("marmalade" . "http://marmalade-repo.org/packages/")
-	        package-archives )
-  (push '("melpa" . "http://stable.melpa.org/packages/")
-	        package-archives)
-  (package-initialize)
+ (require 'package)
+   (push '("marmalade" . "http://marmalade-repo.org/packages/")
+ 	        package-archives )
+   (push '("melpa" . "http://stable.melpa.org/packages/")
+ 	        package-archives)
+   (package-initialize)
 
 (require 'evil)
 (evil-mode 1)
@@ -84,3 +84,8 @@
 	  (if this-win-2nd (other-window 1))))))
 
 (global-set-key (kbd "C-x |") 'toggle-window-split)
+(global-set-key (kbd "C-x p") 'helm-projectile-find-file-dwim)
+
+(projectile-global-mode)
+(setq projectile-completion-system 'helm)
+(setq projectile-enable-caching t)
