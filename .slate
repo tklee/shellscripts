@@ -2,15 +2,15 @@ alias mon-samsung	1
 alias mon-laptop	0
 
 bind 4:cmd focus "MacVim"
-bind 6:cmd focus "iTerm"
+bind 6:cmd focus "iTerm2"
 bind 5:cmd focus "SourceTree"
 bind 3:cmd focus "Google Chrome"
 bind 8:cmd focus "Evernote"
+bind 9:cmd focus "Slack"
+bind 0:cmd focus "Discord"
 bind 2:cmd focus "Finder"
-bind 1:cmd focus "RubyMine"
+bind 1:cmd focus "WebStorm"
 bind 7:cmd focus "Emacs"
-alias lefthalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
-bind h:alt ${lefthalf}
 #bind cmd:ctrl:m full move screenOriginX;screenOriginY screenSizeX;screenSizeY
 
 alias sox screenOriginX
@@ -22,8 +22,43 @@ alias fullscreen ${sox};${soy} ${ssx};${ssy}
 bind m:ctrl;cmd move ${fullscreen}
 bind j:ctrl;cmd move ${fullscreen} 1
 bind k:ctrl;cmd move ${fullscreen} 0
+
+#window movement
+bind pad5:alt move ${fullscreen}
+
+alias lefthalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
+bind h:alt ${lefthalf}
 alias rightHalf ${sox}+${ssx}/2;${soy} ${ssx}/2;${ssy}
 bind l:alt move ${rightHalf}
+
+alias lefthalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
+bind pad4:alt ${lefthalf}
+alias rightHalf ${sox}+${ssx}/2;${soy} ${ssx}/2;${ssy}
+bind pad6:alt move ${rightHalf}
+
+alias topRight ${sox}+${ssx}/2;${soy} ${ssx}/2;${ssy}/2
+bind o:alt move ${topRight}
+
+alias topLeft ${sox};${soy} ${ssx}/2;${ssy}/2
+bind u:alt move ${topLeft}
+
+alias bottomRight ${sox}+${ssx}/2;${soy}+${ssy}/2 ${ssx}/2;${ssy}/2
+bind .:alt move ${bottomRight}
+
+alias bottomLeft ${sox};${soy}+${ssy}/2 ${ssx}/2;${ssy}/2
+bind m:alt move ${bottomLeft}
+
+alias topRight ${sox}+${ssx}/2;${soy} ${ssx}/2;${ssy}/2
+bind pad9:alt move ${topRight}
+
+alias topLeft ${sox};${soy} ${ssx}/2;${ssy}/2
+bind pad7:alt move ${topLeft}
+
+alias bottomRight ${sox}+${ssx}/2;${soy}+${ssy}/2 ${ssx}/2;${ssy}/2
+bind pad3:alt move ${bottomRight}
+
+alias bottomLeft ${sox};${soy}+${ssy}/2 ${ssx}/2;${ssy}/2
+bind pad1:alt move ${bottomLeft}
 
 bind e:cmd hint
 
